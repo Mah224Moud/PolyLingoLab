@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 
   const tags = getUniqueTags(posts);
 
-  return tags.map(tag => {
+  return tags.map((tag) => {
     return {
       params: { tag },
       props: { tag },
@@ -39,7 +39,7 @@ const tagPosts = getPostsByTag(posts, tag);
   <Header activeNav="tags" />
   <Main
     pageTitle={`Tag:${tag}`}
-    pageDesc={`All the articles with the tag "${tag}".`}
+    pageDesc={`Tous les articles avec le tag "${tag}".`}
   >
     <ul>
       {

@@ -1,36 +1,32 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "A propos"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Bienvenue dans l'univers captivant et polyglotte de **PolyLingoLab** ! Ici, nous célébrons la magie de la programmation à travers une myriade de langages, où chaque ligne de code est une note dans notre symphonie technologique. Si vous êtes prêt à explorer, apprendre et rire (parfois avec nos bugs), vous êtes au bon endroit !
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+### Une Plongée dans le Code Multilingue
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Imaginez-vous plonger dans un océan de langages de programmation, où chaque vague est une nouvelle opportunité d'apprendre, de créer et de grandir. Chez **PolyLingoLab**, nous faisons bien plus que du code. Nous explorons l'essence de la création numérique à travers des langages tels que Python, PHP, JavaScript, et bien d'autres encore. Que vous soyez un débutant enthousiaste ou un expert chevronné, nos articles sont conçus pour vous inspirer à chaque ligne que vous lisez.
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+### Des Algorithmes aux Blagues de Développeurs
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+La programmation, c'est sérieux, mais cela peut aussi être amusant ! Nous ne nous contentons pas d'expliquer des algorithmes complexes et des structures de données élaborées. Nous partageons également ces moments hilarants que seuls les développeurs comprennent : des blagues de code, des mèmes technologiques et des anecdotes de "debugging" qui vous feront sourire tout en hochant la tête, en vous disant : "Oh oui, je connais ça !"
 
-## Features
+### Nos Explorateurs du Code
 
-Here are certain features of this site.
+Derrière **PolyLingoLab**, c'est toute une équipe d'explorateurs passionnés du code qui se donnent pour mission de démystifier la programmation. Nos rédacteurs, composés de développeurs chevronnés et de novices audacieux, sont là pour vous guider à travers des tutoriels détaillés, des études de cas stimulantes et des réflexions sur les dernières tendances technologiques.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+### Qui se Cache Derrière PolyLingoLab ?
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Derrière **PolyLingoLab**, découvrez un passionné de la programmation, qui se donne pour mission de démystifier le monde du code. Etant moi-même apprenant enthousiaste, je partage mon parcours d'exploration à travers différents langages de programmation. Je suis là pour vous guider à travers des tutoriels simples, des expériences personnelles et des découvertes technologiques.
+
+### Rejoignez-moi dans cette Aventure
+
+Que vous soyez un débutant curieux ou que vous ayez déjà quelques lignes de code à votre actif, vous êtes invité à rejoindre cette aventure passionnante. Ensemble, nous allons explorer, apprendre et grandir dans le monde fascinant de la programmation.
+
+Prêt à plonger ? Attachez votre ceinture de curiosité et embarquez avec moi dans ce voyage captivant !

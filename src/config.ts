@@ -1,16 +1,17 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/",
-  author: "Sat Naing",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://portfolio.bratif.com/",
+  author: "Mamoudou DIALLO",
+  desc: "PolyLingoLab : Découvrez la programmation multilingue à travers des exemples de code et des explications détaillées sur notre blog dédié. Explorez la diversité des langages tels que Python et PHP avec nos articles instructifs.",
+  title: "PolyLingoLab",
+  ogImage: "logo.png",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 5,
+  username: "Mah224Moud",
 };
 
-export const LOCALE = ["en-EN"]; // set to [] to use the environment default
+export const LOCALE = ["fr-FR"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
@@ -22,26 +23,26 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
+    href: "https://github.com/Mah224Moud/",
+    linkTitle: ` ${SITE.username} sur Github`,
     active: true,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    href: "https://www.linkedin.com/in/mamoudou-diallo-528020199/",
+    linkTitle: `${SITE.author} sur LinkedIn`,
     active: true,
   },
   {

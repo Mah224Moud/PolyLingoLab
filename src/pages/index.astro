@@ -16,50 +16,40 @@ const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
-const socialCount = SOCIALS.filter(social => social.active).length;
+const socialCount = SOCIALS.filter((social) => social.active).length;
 ---
 
 <Layout>
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-      </a>
-
+      <h1 class="text-center">"Bienvenue sur PolyLingoLab"</h1>
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Découvrez le monde captivant de la programmation multilingue sur
+        <strong>PolyLingoLab</strong>. Plongez dans des morceaux de code et des
+        algorithmes soigneusement élaborés, mettant en avant la diversité des
+        langages de programmation tels que <strong><em>Python</em></strong> et <strong
+          ><em>PHP</em></strong
+        >. Que vous soyez débutant ou expert, nos articles instructifs vous
+        guideront à travers des exemples clairs et documentés, offrant un aperçu
+        approfondi de la programmation dans ces langages. Rejoignez-nous pour un
+        voyage à travers la polyglotte programmation, et découvrez comment
+        enrichir vos connaissances.
       </p>
       <p>
-        Read the blog posts or check
+        Lisez les articles du blog ou decouvrez notre superbe repo GitHub
         <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          className="hover:text-skin-accent hover:underline hover: underline-offset-4"
+          href="https://github.com/Mah224Moud/MultiLang-Code-Snippets"
         >
-          README
-        </LinkButton> for more info.
+          <strong>"MultiLang-Code-Snippets"</strong>
+        </LinkButton> avec des des exemples de code sur divers langages.
       </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">Mes réseaux:</div>
             <Socials />
           </div>
         )
@@ -72,7 +62,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>A la une</h2>
             <ul>
               {featuredPosts.map(({ data }) => (
                 <Card
@@ -89,7 +79,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     }
 
     <section id="recent-posts">
-      <h2>Recent Posts</h2>
+      <h2>Articles récents</h2>
       <ul>
         {
           sortedPosts.map(
@@ -106,7 +96,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </ul>
       <div class="all-posts-btn-wrapper">
         <LinkButton href="/posts">
-          All Posts
+          Tous les articles
           <svg xmlns="http://www.w3.org/2000/svg"
             ><path
               d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
