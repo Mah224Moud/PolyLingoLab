@@ -1,7 +1,7 @@
 ---
 author: Mamoudou
 pubDatetime: 2023-08-25T08:30:00.000Z
-title: Conversion binaire en decimal en Python
+title: Conversion binaire en decimal avec Python
 postSlug: conversion-binaire-en-decimal-python
 featured: true
 tags:
@@ -10,7 +10,7 @@ tags:
   - decimal
   - conversion
   - binarytodecimal
-description: Nous allons voir comment convertir un nombre binaire en un nombre decimal en Python.
+description: Nous allons voir comment convertir un nombre binaire en un nombre decimal avec Python.
 ---
 
 # Conversion d'un nombre binaire en décimal avec Python
@@ -91,13 +91,17 @@ Si vous avez bien suivi le principe, notre nombre `101011` est de taille 6 et ce
 ### C'est bien beau tout ça mais comment obtenir la valeur en décimal ? 🤔
 
 Bonne question 😉  
-Pour obtenir la valeur en décimal, rien de compliquer. Il suffit de la somme de toutes les valeurs qu'on obtient.
+Pour obtenir la valeur en décimal, rien de compliquer. Il suffit de faire la somme de toutes les valeurs qu'on obtient.
 
 ```python
 32 + 0 + 8 + 0 + 2 + 1 # on obtient 43
 ```
 
 donc `101011` en binaire = `43` en décimal
+
+### Remarque:
+
+Bien que Python dispose d'une fonction native `built-in function` pour convertir des nombres binaires en décimaux, il est important de comprendre l'algorithme sous-jacent pour saisir pleinement les concepts. Laissez-moi donc vous expliquer comment fonctionne l'algorithme de conversion.
 
 ## Code en Python
 
@@ -219,6 +223,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+```
+
+### Bonus:
+
+Pour ceux qui ce demandent, on aurait aussi pu le faire nativement en utilisant la fonction `int()` de python.
+
+```python
+binaire = "101011"
+decimal = int(binaire, 2)
+print(decimal) # on obtient 43
 
 ```
 
