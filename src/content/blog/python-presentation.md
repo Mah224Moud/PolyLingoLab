@@ -3,7 +3,7 @@ author: Mamoudou
 pubDatetime: 2023-08-09T08:22:00.000Z
 title: A la découverte de Python
 postSlug: decouvrir-python
-featured: true
+featured: false
 tags:
   - python
   - découverte
