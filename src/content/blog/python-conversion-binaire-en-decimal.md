@@ -3,7 +3,7 @@ author: Mamoudou
 pubDatetime: 2023-08-25T08:30:00.000Z
 title: Conversion binaire en decimal avec Python
 postSlug: conversion-binaire-en-decimal-python
-featured: true
+featured: false
 tags:
   - python
   - binaire
